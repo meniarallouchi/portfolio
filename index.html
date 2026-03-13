@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meniar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Meniar Allouchi</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-sci">
+            <a href="https://github.com/meniarallouchi" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 013.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/meniar" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.851-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.851 3.369-1.851 3.6 0 4.264 2.369 4.264 5.455v6.287zM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126zM6.999 20.452H3.675V9h3.324v11.452z" />
+                </svg>
+            </a>
+            <a href="https://www.coursera.org/learner/meniar" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c3.87 0 7.2-2.22 8.84-5.45h-3.1A7 7 0 1 1 12 5a6.96 6.96 0 0 1 5.74 3h3.05A10 10 0 0 0 12 2z" />
+                </svg>
+            </a>
+            <a href="mailto:meniarallouchi.work@gmail.com">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-image">
+            <canvas id="ascii-canvas"></canvas>
+            <img id="source-img" src="websitepic.png" crossorigin="anonymous" style="display:none;">
+        </div>
+        <div class="home-content">
+            <h1>hi, <span class="accent">meniar</span> here.</h1>
+            <h3>I'm a <span class="text"></span></h3>
+            <h4>I enjoy building projects that explore the intersection of code, creativity, and technology.</h4>
+            <p>I'm a beginner software engineer and artist based in Tunis, Tunisia. I'm fascinated by the potential of
+                technology and how systems work as I experiment with software development, hardware, and art.</p>
+            <a href="mailto:meniarallouchi.work@gmail.com" class="btn-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+                Say hi!
+            </a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>/ about me</h2>
+        </div>
+        <div class="about-body">
+            <div class="about-text">
+                <p>I am currently a <strong>first-year Software Engineering Student</strong> at <a
+                        href="https://mustuniversity.tn/" target="_blank" class="highlight-teal">MUST University, Tunis,
+                        Tunisia.</a> At the same time, I am continuously developing new skills and taking additional
+                    courses to expand my knowledge.</p>
+                <p>Here are some technologies I have been working with:</p>
+                <ul class="tech-list">
+                    <li style="--i:1">Python</li>
+                    <li style="--i:2">C</li>
+                    <li style="--i:3">Javascript ES6+</li>
+                    <li style="--i:4">HTML/CSS</li>
+                    <li style="--i:5">SQL</li>
+                    <li style="--i:6">Docker</li>
+                </ul>
+                <p>Outside of work and class, I am a tech enthusiast with a soft spot for vintage gadgets and older
+                    hardware. I also love literary fiction and gaming, especially gacha games.</p>
+            </div>
+            <div class="about-image">
+                <img src="mepic.png" alt="Meniar Allouchi">
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="experience-content">
+            <h2>/ experience</h2>
+        </div>
+
+        <div class="experience-body">
+            <div class="exp-tabs">
+                <div class="exp-tab active" data-tab="must">MUST</div>
+                <div class="exp-tab" data-tab="freelance">SELF-TAUGHT</div>
+                <div class="exp-indicator"></div>
+            </div>
+            <div class="exp-panels">
+                <div class="exp-panel active" id="tab-must">
+                    <h3 style="--i:1">Software Engineering Student @ <span class="exp-company">MUST University</span>
+                    </h3>
+                    <p class="exp-date" style="--i:2">SEPT. 2025 - PRESENT</p>
+                    <ul class="exp-list">
+                        <li style="--i:3">Studying core computer science fundamentals including algorithms, data
+                            structures, and software engineering principles.</li>
+                        <li style="--i:4">Building projects with classmates/profs.</li>
+                    </ul>
+                </div>
+                <div class="exp-panel" id="tab-freelance">
+                    <h3 style="--i:1">Beginner Developer @ <span class="exp-company">Self</span></h3>
+                    <p class="exp-date" style="--i:2">MAR. 2025 - PRESENT</p>
+                    <ul class="exp-list">
+                        <li style="--i:3">Designed and built personal small-scale projects using Python, C, SQL...</li>
+                        <li style="--i:4">Experimented with creative coding, hardware projects, and design.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h2>/ skills</h2>
+        </div>
+
+        <div class="skills-body">
+            <!-- LEFT: progress bars -->
+            <div class="skills-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>Python</span><span>40%</span></div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="--pct: 40%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>JavaScript ES6+</span><span>50%</span></div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="--pct: 50%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>SQL</span><span>50%</span></div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="--pct: 50%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>C</span><span>65%</span></div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="--pct: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>HTML/CSS</span><span>75%</span></div>
+                    <div class="skill-track">
+                        <div class="skill-fill" style="--pct: 75%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: circular progress -->
+            <div class="skills-right">
+                <h3>Professional Skills</h3>
+                <div class="circles-grid">
+                    <div class="circle-wrap">
+                        <svg class="circle-svg" viewBox="0 0 100 100">
+                            <circle class="circle-bg" cx="50" cy="50" r="42" />
+                            <circle class="circle-prog" cx="50" cy="50" r="42" style="--pct: 75" />
+                        </svg>
+                        <span class="circle-pct">75%</span>
+                        <p class="circle-label">Problem Solving</p>
+                    </div>
+                    <div class="circle-wrap">
+                        <svg class="circle-svg" viewBox="0 0 100 100">
+                            <circle class="circle-bg" cx="50" cy="50" r="42" />
+                            <circle class="circle-prog" cx="50" cy="50" r="42" style="--pct: 60" />
+                        </svg>
+                        <span class="circle-pct">60%</span>
+                        <p class="circle-label">Creativity</p>
+                    </div>
+                    <div class="circle-wrap">
+                        <svg class="circle-svg" viewBox="0 0 100 100">
+                            <circle class="circle-bg" cx="50" cy="50" r="42" />
+                            <circle class="circle-prog" cx="50" cy="50" r="42" style="--pct: 55" />
+                        </svg>
+                        <span class="circle-pct">55%</span>
+                        <p class="circle-label">Communication</p>
+                    </div>
+                    <div class="circle-wrap">
+                        <svg class="circle-svg" viewBox="0 0 100 100">
+                            <circle class="circle-bg" cx="50" cy="50" r="42" />
+                            <circle class="circle-prog" cx="50" cy="50" r="42" style="--pct: 65" />
+                        </svg>
+                        <span class="circle-pct">65%</span>
+                        <p class="circle-label">Teamwork</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <div class="cert-content">
+            <h2>/ certificates</h2>
+        </div>
+
+        <div class="cert-carousel-wrap">
+            <button class="cert-arrow left" id="certPrev">&#8249;</button>
+
+            <div class="cert-carousel">
+                <div class="cert-slide active">
+                    <img src="1.png" alt="Critical Thinking Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Mindware: Critical Thinking for the Information Age</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 90.9%</p>
+                        <a href="https://coursera.org/verify/9A42LCJ08KHY" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="2.png" alt="Psychology Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Introduction to Psychology</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 97.2%</p>
+                        <a href="https://coursera.org/verify/AJQ1YZU0V1UV" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="3.png" alt="Well-Being Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>The Science of Well-Being</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 88.0%</p>
+                        <a href="https://coursera.org/verify/3VYO0N88QKT8" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="4.png" alt="Negotiation Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Negotiation Skills: Negotiate and Resolve Conflict</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 86.1%</p>
+                        <a href="https://coursera.org/verify/FTFRHRQIQHNZ" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="5.png" alt="Financial Markets Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Financial Markets</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 94.9%</p>
+                        <a href="https://coursera.org/verify/LZHP57TZHZLY" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="6.png" alt="Microeconomics Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Microeconomics Principles</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 100%</p>
+                        <a href="https://coursera.org/verify/NQDIDTNZ3OSZ" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="7.png" alt="Writing Skills Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Writing Skills for Engineering Leaders</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 97.0%</p>
+                        <a href="https://coursera.org/verify/RC4ZBFODECW6" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="8.png" alt="Graphic Design Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>Fundamentals of Graphic Design</h3>
+                        <p class="cert-platform">Coursera</p>
+                        <p class="cert-grade">Grade: 97.7%</p>
+                        <a href="https://coursera.org/verify/UCQMD3T5MPWU" target="_blank" class="cert-btn">Show
+                            credential ↗</a>
+                    </div>
+                </div>
+                <div class="cert-slide">
+                    <img src="9.png" alt="English Certificate" class="cert-img">
+                    <div class="cert-info">
+                        <h3>EF Standard English Test (EF SET)</h3>
+                        <p class="cert-platform">EFSET</p>
+                        <p class="cert-grade">Grade: C2 Proficient (75/100)</p>
+                        <a href="https://cert.efset.org/en/NRw1Ba" target="_blank" class="cert-btn">Show credential
+                            ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="cert-arrow right" id="certNext">&#8250;</button>
+        </div>
+
+        <div class="cert-dots" id="certDots"></div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-content">
+            <h2>/ projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card" style="--i:1">
+                <div class="project-top">
+                    <svg class="project-folder" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0ef"
+                        stroke-width="1.5">
+                        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+                    </svg>
+                    <div class="project-links">
+                        <a href="https://github.com/meniarallouchi/ascii-art-generator" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <h3>ASCII Art Generator</h3>
+                <p>A Python tool that converts any image into ASCII art. Supports custom character sets, brightness
+                    mapping, and exports to .txt files.</p>
+                <p class="project-tech">Python, Pillow, NumPy</p>
+            </div>
+
+            <div class="project-card" style="--i:2">
+                <div class="project-top">
+                    <svg class="project-folder" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0ef"
+                        stroke-width="1.5">
+                        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+                    </svg>
+                    <div class="project-links">
+                        <a href="https://github.com/meniarallouchi/hospital-management-db" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <h3>Hospital Management Database</h3>
+                <p>A relational database system designed to manage hospital operations, including doctors, patients,
+                    medicines, and billing records. Provides structured data organization and automated billing
+                    calculations for efficient hospital administration.</p>
+                <p class="project-tech">MySQL, SQL</p>
+            </div>
+
+            <div class="project-card" style="--i:3">
+                <div class="project-top">
+                    <svg class="project-folder" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0ef"
+                        stroke-width="1.5">
+                        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+                    </svg>
+                    <div class="project-links">
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"
+                                    stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <h3>Typing Speed Test</h3>
+                <p>A sleek browser-based typing test that measures your WPM and accuracy. Includes multiple difficulty
+                    levels and a results history. (in progress!)</p>
+                <p class="project-tech">HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="project-card" style="--i:4">
+                <div class="project-top">
+                    <svg class="project-folder" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0ef"
+                        stroke-width="1.5">
+                        <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+                    </svg>
+                    <div class="project-links">
+                        <a href="https://github.com/meniarallouchi/grade-tracker" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <h3>Student Grade Tracker</h3>
+                <p>A relational database app to manage students, courses, and grades. Includes a Python CLI to query
+                    class averages, top performers, and export reports.</p>
+                <p class="project-tech">Python, SQL, MySQL</p>
+            </div>
+
+            <div class="project-card placeholder" style="--i:5"></div>
+            <div class="project-card placeholder" style="--i:6"></div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2>/ contact me</h2>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-left">
+                <h4>Let's Connect!</h4>
+                <p>I'm always open to new opportunities, collaborations, or just a good conversation. Feel free to reach
+                    out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                        <a href="mailto:meniarallouchi.work@gmail.com">meniarallouchi.work@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://github.com/meniarallouchi" target="_blank">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.303-5.467-1.334-5.467-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.403c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.874.12 3.177.77.84 1.234 1.91 1.234 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.813 1.103.813 2.222 0 1.606-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/meniar" target="_blank">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.851-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.851 3.369-1.851 3.6 0 4.264 2.369 4.264 5.455v6.287zM5.337 7.433a2.063 2.063 0 1 1 0-4.126 2.063 2.063 0 0 1 0 4.126zM6.999 20.452H3.675V9h3.324v11.452z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.coursera.org/learner/meniar" target="_blank">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c3.87 0 7.2-2.22 8.84-5.45h-3.1A7 7 0 1 1 12 5a6.96 6.96 0 0 1 5.74 3h3.05A10 10 0 0 0 12 2z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <input type="text" placeholder="Enter Your Name" class="contact-input" id="contactName">
+                <input type="email" placeholder="Enter Your Email" class="contact-input" id="contactEmail">
+                <input type="text" placeholder="Enter Your Subject" class="contact-input" id="contactSubject">
+                <textarea placeholder="Enter Your Message" class="contact-input contact-textarea"
+                    id="contactMessage"></textarea>
+                <button class="contact-btn" id="contactSubmit">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Designed & Built by Meniar Allouchi.</p>
+        <p>All rights reserved. © 2026</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 4l-8 8h5v8h6v-8h5z" />
+        </svg>
+    </button>
+
+    <div class="toast" id="toast"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
